@@ -57,6 +57,10 @@ export default function Header(){
                             to='/favorites'
                             className={({isActive})=> isActive ? 'text-amber-300 font-extrabold text-2xl' : 'text-white font-bold' }
                         >Favorites</NavLink>
+                        <NavLink
+                            to='/generate'
+                            className={({isActive})=> isActive ? 'text-amber-300 font-extrabold text-2xl' : 'text-white font-bold' }
+                        >Generate with AI</NavLink>
                     </nav>
                 </div>
                 {isHome && (
